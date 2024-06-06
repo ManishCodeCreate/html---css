@@ -16,7 +16,6 @@
     <h3> DOCTYPE in html</h3>
     this is a DOCTYPE html
 
-
     <p>show the type of a Document</p>
 
     <hr>
@@ -38,7 +37,7 @@
 
     <h3> video tag</h3>
 
-    <video src="sample.mp4" width="280px" height="160px" autoplay muted> sample video </video>
+    <video src="sample.mp4" width="280px" height="160px"  controls autoplay loop muted> sample video </video>
 
     <hr>
 
@@ -74,24 +73,221 @@
     </aside>
 
     <hr>
-      
+
     <h3> audio tag : is used to add audio and it control by at same place</h3>
-    <audio src="sample-3s.mp3"  controls muted> your browser not support the audio file</audio>
+    <audio src="sample-3s.mp3" controls muted> your browser not support the audio file</audio>
+    <hr>
+
+    <h3> <b> tag : is used to bold the text</h3>
+    the <b> WHO </b> is organized in 1970
+
+    <hr>
+    <h3> base tag : what website we add in head's base will be open </h3>
+<!-- <head>
+    <base href="https://twitter.com">
+</head> -->
+    <h3> base tag : in this tag we can set default url and traget for all links</h3>
+    <p><img src="stickman.jpeg" width="240" height="139" alt="Stickman"> - Notice that we have only specified a relative
+        address for the image. Since we have specified a base URL in the head section, the browser will look for the
+        image at "https://www.w3schools.com/images/stickman.gif".</p>
+
+    <p><a href="tags/tag_base.asp">HTML base tag</a> - Notice that the link opens in a new window, even if it has no
+        target="_blank" attribute. This is because the target attribute of the base element is set to "_blank".</p>
+
+    <hr>
+
+    <h3> bdi tag : is Isolate the usernames from the surrounding text-direction settings either if we not used it theen
+        the some other language word or special words are be change its posiin </h3>
+
+    <h1>The bdi element</h1>
+
+    <p>In the example below, usernames are shown along with the number of points in a contest. If the bdi element is not
+        supported in the browser, the username of the Arabic user would confuse the text (the bidirectional algorithm
+        would put the colon and the number "90" next to the word "User" rather than next to the word "points").</p>
+
+    <ul>
+        <li>User <bdi>hrefs</bdi>: 60 points</li>
+        <li>User <bdi>jdoe</bdi>: 80 points</li>
+        <li>User <bdi>إيان</bdi>: 90 points</li>
+    </ul>
+
+    <hr>
+
+    <h3> bdo tag : BDO stands for Bi-Directional Override and can change the direction of the text</h3>
+
+    <p> this is bdo example </p>
+    <p>
+        <bdo dir="rtl">
+            this text will go right to left
+        </bdo>
+    </p>
+    <hr>
+
+    <h3> blockquote tag : specifies a section that is quoted from another source</h3>
+    <h2>the blockquote example</h2>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem doloribus labore molestias quibusdam,
+        ducimus officia eligendi suscipit, ea voluptatum doloremque laborum vel nulla dolore ab, eos corrupti? Illo
+        inventore quia maxime facilis minima numquam voluptatem vitae tenetur perspiciatis nesciunt natus nam unde
+        dolorem similique aliquid error quis officiis, eligendi corporis.</p>
+    <blockquote>
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni in debitis esse voluptate commodi pariatur
+        exercitationem laborum soluta error, amet porro, asperiores officiis minima doloribus. Suscipit iure ratione
+        minima facilis sapiente ducimus repudiandae laborum, ipsum earum est, harum inventore illo quisquam, tenetur
+        commodi. Cumque itaque fugit sit vel placeat aliquam repellat inventore impedit, non laborum esse velit cum at?
+    </blockquote>
+
+    <hr>
+
+    <h3>body tag : show body of the document like as - title , heading etc....</h3>
+
+    <body>
+
+        <head> its a header</head>
+        <footer>its a footer</footer>
+    </body>
+    <hr>
+    <h3> br tag : is used to give single line break</h3>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aut itaque sapiente atque? Exercitationem consequuntur dolorem modi voluptate cum veritatis! <br>
+    here i used a single line break.
+  
+
+    <hr>
+   <h3> button tag : is used to set a clickable button</h3>
+   here i used a button <button type="button"> click me</button>
+
+   <hr>
+
+   <h3> canvas tag : usedn to make some graphical things</h3>
+   <canvas id="mycanvas" width="300px" height="150px" style="border:2px solid grey"> this is made by canvas </canvas>
+
 <hr>
 
-     <h3> <b> tag : is used to bold the text</h3>
-         the <b> WHO </b> is organized in 1970
+<h3> caption tag : we can use it anywhere in tableand defines the table caption</h3>
+<h2>caption element </h2>
+<table style="border: 1px solid rgb(208, 17, 17) ">
+    <caption> monthly savings</caption>
+
+    <tr>
+        <th>Month</th>
+        <th>Savings</th>
+    </tr>
+    <tr>
+        <td>january</td>
+        <td>3000</td>
+    </tr>
+    <tr>
+        <td>febuary</td>
+        <td>3150</td>
+    </tr>
+</table>
 
 <hr>
 
-<h3> base tag : in this tag we can set default url and traget for all links</h3>
-<p><img src="stickman.jpeg" width="240" height="139" alt="Stickman"> - Notice that we have only specified a relative address for the image. Since we have specified a base URL in the head section, the browser will look for the image at "https://www.w3schools.com/images/stickman.gif".</p>
 
-<p><a href="tags/tag_base.asp">HTML base tag</a> - Notice that the link opens in a new window, even if it has no target="_blank" attribute. This is because the target attribute of the base element is set to "_blank".</p>
+<h3> cite tag : defines the title of a creative work and The text in the <cite> element usually renders in italic.</h3>
+<h1>The cite element</h1>
+<img src="scream.jpg" width="220" height="277" alt="">
+<p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
 
 <hr>
 
-<h3> </h3>
+<h3> code tag : s used to define a piece of computer code. The content inside is displayed in the browser's default monospace font</h3>
+
+<p>The HTML <code>button</code> tag defines a clickable button.</p>
+
+<p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+
+<hr>
+<!-- 
+<h3> col and colgroup </h3> -->
+
+<h3> data element : is used to add a machine radable translation of a given content </h3>
+
+<ul>
+    <li> <data value="21053"> Cherry tomato</data></li>
+    <li> <data value="21054"> Beef tomato</data></li>
+    <li> <data value="21055"> Snack tomato</data></li>
+</ul>
+
+<hr>
+
+<h3> datalist element : with predefined options</h3>
+
+<form action="/action_page.php" method="get">
+    <label for="browser">Choose your browser from the list:</label>
+    <input list="browsers" name="browser" id="browser">
+    <datalist id="browsers">
+      <option value="Edge">
+      <option value="Firefox">
+      <option value="Chrome">
+      <option value="Opera">
+      <option value="Safari">
+    </datalist>
+    <input type="submit">
+  </form>
+<p> <strong>Note:</strong> the datalist tag is not supported safari</p>
+
+<hr>
+
+<h3>dd element : a description list with term and conditions</h3>
+<p> the elements are used to create a description list : dl dt dd </p>
+ 
+<dl>
+    <dt> Coffee</dt>
+    <dd>Black coffee</dd>
+    <dd> chocolate coffee</dd>
+    <dt> Pizza</dt>
+    <dd>Corn pizza</dd>
+    <dd>Garlic pizza</dd>
+</dl>
+
+<hr>
+<h3>del tag: defines text that has been deleted from a document</h3>
+
+<p> I am in study in <del>school</del> <ins>college</ins></p>
+
+<hr>
+
+<h3> details tag :  specifies additional details that the user can open and close on demand</h3>
+<details>
+    <summary> Epcort park</summary>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores nemo consectetur, deleniti in eveniet, ratione quibusdam tempora magni quas vel.</p>
+</details>
+
+<hr>
+<h3>dfn element :stands for the "definition element", and it specifies a term that is going to be defined within the content. </h3>
+<h2>The dfn element</h2>
+<p>The <dfn>HTML</dfn> is a structure of webpages.
+</p>
+
+<hr> 
+
+<h3> dialog tag :  defines a dialog box or subwindow.</h3>
+<p>This is a simple text</p>
+<p>This is a simple text</p>
+<dialog open> This is a open box dialog window</dialog>
+<p>This is a simple text</p>
+<p>This is a simple text</p>
+
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 
