@@ -37,7 +37,7 @@
 
     <h3> video tag</h3>
 
-    <video src="sample.mp4" width="280px" height="160px"  controls autoplay loop muted> sample video </video>
+    <video src="sample.mp4" width="280px" height="160px" controls autoplay loop muted> sample video </video>
 
     <hr>
 
@@ -83,11 +83,11 @@
 
     <hr>
     <h3> base tag : what website we add in head's base will be open </h3>
-<!-- <head>
+    <!-- <head>
     <base href="https://twitter.com">
 </head> -->
     <h3> base tag : in this tag we can set default url and traget for all links</h3>
-    <p><img src="stickman.jpeg" width="240" height="139" alt="Stickman"> - Notice that we have only specified a relative
+    <p><img src="sample5.jpeg" width="240" height="139" alt="Stickman"> - Notice that we have only specified a relative
         address for the image. Since we have specified a base URL in the head section, the browser will look for the
         image at "https://www.w3schools.com/images/stickman.gif".</p>
 
@@ -148,145 +148,570 @@
     </body>
     <hr>
     <h3> br tag : is used to give single line break</h3>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aut itaque sapiente atque? Exercitationem consequuntur dolorem modi voluptate cum veritatis! <br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aut itaque sapiente atque? Exercitationem consequuntur
+    dolorem modi voluptate cum veritatis! <br>
     here i used a single line break.
-  
+
 
     <hr>
-   <h3> button tag : is used to set a clickable button</h3>
-   here i used a button <button type="button"> click me</button>
+    <h3> button tag : is used to set a clickable button</h3>
+    here i used a button <button type="button"> click me</button>
 
-   <hr>
+    <hr>
 
-   <h3> canvas tag : usedn to make some graphical things</h3>
-   <canvas id="mycanvas" width="300px" height="150px" style="border:2px solid grey"> this is made by canvas </canvas>
+    <h3> canvas tag : usedn to make some graphical things</h3>
+    <canvas id="mycanvas" width="300px"  cx="50" cy="50" r="40" height="150px" style="border:2px solid grey"> this is made by canvas </canvas>
 
-<hr>
+    <hr>
 
-<h3> caption tag : we can use it anywhere in tableand defines the table caption</h3>
-<h2>caption element </h2>
-<table style="border: 1px solid rgb(208, 17, 17) ">
-    <caption> monthly savings</caption>
+    <h3> caption tag : we can use it anywhere in tableand defines the table caption</h3>
+    <h2>caption element </h2>
+    <table style="border: 1px solid rgb(208, 17, 17) ">
+        <caption> monthly savings</caption>
 
-    <tr>
-        <th>Month</th>
-        <th>Savings</th>
-    </tr>
-    <tr>
-        <td>january</td>
-        <td>3000</td>
-    </tr>
-    <tr>
-        <td>febuary</td>
-        <td>3150</td>
-    </tr>
-</table>
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+        </tr>
+        <tr>
+            <td>january</td>
+            <td>3000</td>
+        </tr>
+        <tr>
+            <td>febuary</td>
+            <td>3150</td>
+        </tr>
+    </table>
 
-<hr>
+    <hr>
 
 
-<h3> cite tag : defines the title of a creative work and The text in the <cite> element usually renders in italic.</h3>
-<h1>The cite element</h1>
-<img src="scream.jpg" width="220" height="277" alt="">
-<p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+    <h3> cite tag : defines the title of a creative work and The text in the <cite> element usually renders in italic.
+    </h3>
+    <h1>The cite element</h1>
+    <img src="sample4.jpg" width="220" height="277" alt="">
+    <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
 
-<hr>
+    <hr>
 
-<h3> code tag : s used to define a piece of computer code. The content inside is displayed in the browser's default monospace font</h3>
+    <h3> code tag : s used to define a piece of computer code. The content inside is displayed in the browser's default
+        monospace font</h3>
 
-<p>The HTML <code>button</code> tag defines a clickable button.</p>
+    <p>The HTML <code>button</code> tag defines a clickable button.</p>
 
-<p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+    <p>The CSS <code>background-color</code> property defines the background color of an element.</p>
 
-<hr>
-<!-- 
+    <hr>
+    <!-- 
 <h3> col and colgroup </h3> -->
 
-<h3> data element : is used to add a machine radable translation of a given content </h3>
+    <h3> data element : is used to add a machine radable translation of a given content </h3>
 
-<ul>
-    <li> <data value="21053"> Cherry tomato</data></li>
-    <li> <data value="21054"> Beef tomato</data></li>
-    <li> <data value="21055"> Snack tomato</data></li>
-</ul>
+    <ul>
+        <li> <data value="21053"> Cherry tomato</data></li>
+        <li> <data value="21054"> Beef tomato</data></li>
+        <li> <data value="21055"> Snack tomato</data></li>
+    </ul>
+
+    <hr>
+
+    <h3> datalist element : with predefined options</h3>
+
+    <form action="/action_page.php" method="get">
+        <label for="browser">Choose your browser from the list:</label>
+        <input list="browsers" name="browser" id="browser">
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+        <input type="submit">
+    </form>
+    <p> <strong>Note:</strong> the datalist tag is not supported safari</p>
+
+    <hr>
+
+    <h3>dd element : a description list with term and conditions </h3>
+    <h3>dt element :defines a term/name in a description list.</h3>
+    <h3> dl element :defines a description list</h3>
+
+    <p> the elements are used to create a description list : dl dt dd </p>
+
+    <dl>
+        <dt> Coffee</dt>
+        <dd>Black coffee</dd>
+        <dd> chocolate coffee</dd>
+        <dt> Pizza</dt>
+        <dd>Corn pizza</dd>
+        <dd>Garlic pizza</dd>
+    </dl>
+
+    <hr>
+    <h3>del and ins tag: defines text that has been deleted from a document and defines a text that has been inserted
+        into a document. Browsers will usually underline inserted text.</h3>
+
+    <p> I am in study in <del>school</del> <ins>college</ins></p>
+
+    <hr>
+
+    <h3> details and summary tag : specifies additional details that the user can open and close on demand</h3>
+    <details>
+        <summary> Epcort park</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores nemo consectetur, deleniti in eveniet,
+            ratione quibusdam tempora magni quas vel.</p>
+    </details>
+
+    <hr>
+    <h3>dfn element :stands for the "definition element", and it specifies a term that is going to be defined within the
+        content. </h3>
+    <h2>The dfn element</h2>
+    <p>The <dfn>HTML</dfn> is a structure of webpages.
+    </p>
+
+    <hr>
+
+    <h3> dialog tag : defines a dialog box or subwindow.</h3>
+    <p>This is a simple text</p>
+    <p>This is a simple text</p>
+    <dialog open> This is a open box dialog window</dialog>
+    <p>This is a simple text</p>
+    <p>This is a simple text</p>
+
+    <hr>
+
+    <h3> div section : is used in html and style via CSS</h3>
+
+    <div style="color: red; border: 4px solid royalblue; text-align: center;">
+        <h4>This is a heading in div</h4>
+        <p> This is a simple text in div</p>
+    </div>
+
+    <hr>
+
+    <h3> em tag : is used to define emphasized text. The content inside is typically displayed in italic </h3>
+    <h1>em element</h1>
+    <p>here we used <em> em tag</em> </p>
+    <p>it is a simple para</p>
+    <hr>
+
+
+    <h3> embed tag : defines a container for an external resource, such as a web page, a picture, a media player, or a
+        plug-in application.</h3>
+
+    <P>here i used embed tag
+
+    </P>
+    <p><embed src="sample4.jpg" type="" width="220" height="277"></p>
+    <hr>
+    <!-- <hr>
+<h3> fieldset tag : tag is used to group related elements in a form and draws a box around the related elements</h3> -->
+    <h3> figure and figcaption element : defines a caption for a figure element,figure element to mark up a photo in a
+        document, and a figcaption element to define a caption for the photo</h3>
+
+    <h1>the figure and figcaption element </h1>
+    <figure>
+
+        <img src="sample2.jpeg" alt="" width="220px" height="288">
+        <figcaption> fig.1 - bird</figcaption>
+
+
+    </figure>
+    <hr>
+    <h3>footer tag : defines a footer for a document or section</h3>
+    <footer>
+        <p> Hongkong hotels</p>
+        <a href="https://hand-picked-hotels.com/destinations/nHK"> for hotels visit</a>
+    </footer>
+    <hr>
+
+    <h3> form tag : is used to create an HTML form for user input.</h3>
+    <form action="">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" name="submit">
+    </form>
+
+
+    <hr>
+    <h3>
+        heding tags : h1 , h2 , h3 , h4 , h5 , h6
+    </h3>
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h2>
+    <h3>This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <h5>This is heading 5</h5>
+    <h6>This is heading 6</h6>
+
+    <hr>
+
+    <h3> head tag : is used in html , the following tags go inside the head element :
+        title , style , base , script.
+    </h3>
+    <hr>
+    <h3> header element :represents a container for introductory content or a set of navigational links . it typically
+        contains headings and logo</h3>
+
+    <header>
+        <h3>this is a heading in a header</h3>
+
+    </header>
+
+    <hr>
+
+    <h3> hr tag : define thematic changes in the content</h3>
+    the first line is made by the hr tag
+    <hr>
+    <hr>
+
+    <h3> html tag : represents the root of an HTML document. It conatins all like head body style etc.. </h3>
+    <hr>
+    <h3> i tag : The content inside is typically displayed in italic.</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <i>Totam rerum doloribus perspiciatis eius
+            exercitationem maiores iusto ab rem amet perferendis, fugiat voluptate at, eos a neque iure.</i> Distinctio,
+        vitae adipisci.</p>
+    <hr>
+    <h3> iframe element : Totam rerum doloribus perspiciatis eius exercitationem maiores iusto ab rem amet perferendis,
+        fugiat voluptate at, eos a neque iure.</h3>
+    <h2>the iframe element </h2>
+    <iframe src="https://geeksforgeeks.com" title="geeksforgeeks free tutorials "></iframe>
+
+    <hr>
+
+    <h3> img tag : used to add image in the document , we ca style its via css</h3>
+    <img src="sample3.jpg" width="233px" height="200px" alt="">
+
+
+    <hr>
+    <h3> input tag : pecifies an input field where the user can enter data</h3>
+    <input type="text" placeholder="enetr name "> <br>
+    <input type="number" placeholder="enter mobile number"> <br>
+    <input type="text" placeholder="enter address"> <br>
+    <input type="submit" placeholder="submit"> <br>
+
+    <hr>
+
+    <!-- <h3> kbd tag : </h3>
+
+<p> press ctrl + c to copy </p> -->
+
+    <hr>
+    <h3>label tag : defines a label for several elements</h3>
+    <input type="radio" name="fac-language" id="html">
+    <label for="html">HTML</label> <br>
+    <input type="radio" name="fac-language" id="css">
+    <label for="css">css</label> <br>
+    <input type="radio" name="fac-language" id="javascript">
+    <label for="javascript">javascript</label> <br>
+    <input type="submit" value="submit" />
+
+    <hr>
+
+    <h3> legend tag : defines a caption for the fieldset element.</h3>
+    <form action="/action_page.php">
+        <fieldset>
+            <legend> personal information: </legend>
+            <label for="fname"> First name: </label>
+            <input type="text" name="fname" id="fname"> <br> <br>
+
+            <label for="lname">Last name: </label>
+            <input type="text" name="lname" id="lname"> <br> <br>
+
+            <label for="mob-no.">Mobile-no: </label>
+            <input type="text" name="mob-no." id="mob-no."> <br> <br>
+
+            <input type="submit" value="submit">
+
+        </fieldset>
+    </form>
+
+    <hr>
+
+    <h3> li,ol,ul : li used as list and ul is unorderd list and ol is ordered list</h3>
+    <h4>its a ordered lsit</h4>
+    <ol>
+        <li>cofee</li>
+        <li>tea</li>
+        <li>milk</li>
+
+    </ol>
+    <h4>its a unordered list</h4>
+    <ul>
+
+        <li>coffee</li>
+        <li>tea</li>
+        <li>milk</li>
+    </ul>
+    <hr>
+
+    <h3> link tag : defines the relationship between the current document and an external resource. </h3>
+    <h2> <code> link rel="stylesheet" href="sytle0.css"</code></h2>
+    <hr>
+    <h3> main tag : specifies the main content of a document</h3>
+    <h4>main tag</h4>
+    <main>
+        <p>this in in main tag</p>
+    </main>
+    <hr>
+    <h3>map tag and area tag:</h3>
+    <h1>The map and area elements</h1>
+
+    <p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+    <img src="sample6.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="sample7.jpg">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="sample8.jpg">
+        <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="sample9.jpg">
+    </map>
+
+    <hr>
+
+    <h3> mark tag : defines text that should be marked or highlighted.</h3>
+    <h2>mark element</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<mark>Cupiditate accusamus blanditiis ducimus repudiandae
+        </mark> modi harum eos, deleniti possimus porro laborum omnis! Qui, consequuntur!</p>
+    <hr>
+    <h3> menu tag: defines an unordered list of content.</h3>
+    <menu>
+        <li>cake</li>
+        <li>tea</li>
+        <li>coffee</li>
+    </menu>
+    <hr>
+    <h3> meta tag:defines metadata about an HTML document. Metadata is data (information) about data.</h3>
+    <p> <code>
+    head
+        meta charset="UTF-8">
+        meta name="description" content="Free Web tutorials"
+        meta name="keywords" content="HTML, CSS, JavaScript"
+        meta name="author" content="John Doe"
+        meta name="viewport" content="width=device-width, initial-scale=1.0"
+      head
+</code>
+    </p>
+    <hr>
+    <h3> meter tag: defines a scalar measurement within a known range, or a fractional value</h3>
+    <p>The meter element is used to display a guage</p>
+    <label for="disk-c">disk-c:</label>
+    <meter id="disk-c" value="4" max="10">4 out of 10</meter>
+
+    <label for="disk-d">disk-d:</label>
+    <meter id="disk-d" value="0.6">60%</meter>
+    <hr>
+    <h3>nav tag: defines a set of navigation links</h3>
+    <h2>the nav elements defines a set of navigation list</h2>
+    <nav>
+        <a href="https://twitter.com">twitter</a>
+        <a href="https://linkedin.com">linkedin</a>
+        <a href="https://apna.com">apna</a>
+    </nav>
+
+    <hr>
+    <h3> noscript tag: defines an alternate content to be displayed to users that have disabled scripts in their browser
+        or have a browser that doesn't support script.</h3>
+    <p>A browser with JavaScript disabled will show the text inside the noscript element ("Hello World!" will not be
+        displayed).</p>
+
+    <script>
+        document.write("Hello World!")
+    </script>
+    <noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+    <hr>
+    <h3> object game :defines a container for an external resource.</h3>
+    <h1>The object element</h1>
+
+    <object data="sample10.jpg" width="300" height="200"></object>
+    <hr>
+    <h3>optgroup tag:is used to group related options in a select element (drop-down list)</h3>
+
+
+    <h1>The optgroup element</h1>
+
+    <p>The optgroup tag is used to group related options in a drop-down list:</p>
+
+    <form action="/action_page.php">
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+            <optgroup label="Swedish Cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+            </optgroup>
+            <optgroup label="German Cars">
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </optgroup>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+    <h3> output tag : defines an option in a select list.</h3>
+
+
+    <h1>The output element</h1>
+
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="range" id="a" value="50">
+        +<input type="number" id="b" value="25">
+        =<output name="x" for="a b"></output>
+    </form>
+
+    <p><strong>Note:</strong> The output element is not supported in Edge 12 (or earlier).</p>
+
+    <hr>
+
+    <h3> p tag : is used for paragraph</h3>
+    <p>its is a p tag</p>
+
+    <hr>
+
+    <h3> pre tag : defines preformatted text</h3>
+    <pre>
+        Text in a pre element
+        is displayed in a fixed-width
+        font, and it preserves
+        both      spaces and
+        line breaks
+        </pre>
+
+        <hr>
+
+        <h3> progree tag : represent the procees of a task</h3>
+        <h1>The progress element</h1>
+
+<label for="file">Downloading progress:</label>
+<progress id="file" value="32" max="100"> 32% </progress>
+<hr>
+
+<h3> q tag : defines a short quotation</h3>
+<h1>The q element</h1>
+
+<p>WWF's goal is to: 
+<q>Build a future where people live in harmony with nature.</q>
+We hope they succeed.</p>
 
 <hr>
 
-<h3> datalist element : with predefined options</h3>
+<h3> rp , ruby,rt element</h3>
+<h1>The rp element</h1>
 
-<form action="/action_page.php" method="get">
-    <label for="browser">Choose your browser from the list:</label>
-    <input list="browsers" name="browser" id="browser">
-    <datalist id="browsers">
-      <option value="Edge">
-      <option value="Firefox">
-      <option value="Chrome">
-      <option value="Opera">
-      <option value="Safari">
-    </datalist>
-    <input type="submit">
+<ruby>
+漢 <rp>(</rp><rt>ㄏㄢˋ</rt><rp>)</rp>
+</ruby>
+
+
+<hr>
+
+<h3> s tag : same as del</h3>
+<h1>The s element</h1>
+
+<p><s>Only 50 tickets left!</s></p>
+<p>SOLD OUT!</p>
+
+<hr>
+
+<h3>script tag :is used to embed a client-side script (JavaScript)</h3>
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script> 
+<hr>
+<h3>search tag :is used to specify that here comes a set of elements that is related to search. </h3>
+<h1>The search Element</h1>
+
+<search>
+  <form>
+    <input name="fsrch" id="fsrch" placeholder="Search W3Schools">
   </form>
-<p> <strong>Note:</strong> the datalist tag is not supported safari</p>
+</search>
 
 <hr>
 
-<h3>dd element : a description list with term and conditions</h3>
-<p> the elements are used to create a description list : dl dt dd </p>
+<h3> section tag : defines a section in a document.</h3>
+<h1>The section element</h1>
+
+<section>
+  <h2>WWF History</h2>
+  <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+</section>
+
+<section>
+  <h2>WWF's Symbol</h2>
+  <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+</section>
+
+<hr>
+<h3> sub and sup tag :defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O.</h3>
+<h1>The sub and sup elements</h1>
+
+<p>This text contains <sub>subscript</sub> text.</p>
+<p>This text contains <sup>superscript</sup> text.</p>
+
+<hr>
+
+<h3> template tag</h3>
+<h1>The template Element</h1>
+
+<p>Click the button below to display the hidden content from the template element.</p>
+
+<button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="sample11.jpg" width="214" height="204">
+</template>
+
+<script>
+function showContent() {
+  let temp = document.getElementsByTagName("template")[0];
+  let clon = temp.content.cloneNode(true);
+  document.body.appendChild(clon);
+}
+</script>
+
+<hr>
+
+<h3>textarea  </h3>
+<h1>The textarea element</h1>
+
+<form action="/action_page.php">
+  <p><label for="w3review">Review of W3Schools:</label></p>
+  <textarea id="w3review" name="w3review" rows="4" cols="50">At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.</textarea>
+  <br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>Click the "Submit" button and the form-data will be sent to a page on the 
+server called "action_page.php".</p>
+
+<hr>
+<h3> u tag :represents some text that is unarticulated and styled differently from normal text, such as misspelled words or proper names in Chinese text. The content inside is typically displayed with an underline. You can change this with CSS (see example below). </h3>
+<h1>The u element</h1>
+
+<p>This is some <u>mispeled</u> text.</p>
+
+<hr>
  
-<dl>
-    <dt> Coffee</dt>
-    <dd>Black coffee</dd>
-    <dd> chocolate coffee</dd>
-    <dt> Pizza</dt>
-    <dd>Corn pizza</dd>
-    <dd>Garlic pizza</dd>
-</dl>
+<h3> var : same as i tag </h3>
+<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
 
 <hr>
-<h3>del tag: defines text that has been deleted from a document</h3>
+ <h3> wbr tag : (Word Break Opportunity) tag specifies where in a text it would be ok to add a line-break.</h3>
+ <h1>The wbr element</h1>
 
-<p> I am in study in <del>school</del> <ins>college</ins></p>
+<p>Try to shrink the browser window, to view how the very long word in 
+the paragraph below will break:</p>
 
-<hr>
-
-<h3> details tag :  specifies additional details that the user can open and close on demand</h3>
-<details>
-    <summary> Epcort park</summary>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores nemo consectetur, deleniti in eveniet, ratione quibusdam tempora magni quas vel.</p>
-</details>
-
-<hr>
-<h3>dfn element :stands for the "definition element", and it specifies a term that is going to be defined within the content. </h3>
-<h2>The dfn element</h2>
-<p>The <dfn>HTML</dfn> is a structure of webpages.
-</p>
-
-<hr> 
-
-<h3> dialog tag :  defines a dialog box or subwindow.</h3>
-<p>This is a simple text</p>
-<p>This is a simple text</p>
-<dialog open> This is a open box dialog window</dialog>
-<p>This is a simple text</p>
-<p>This is a simple text</p>
-
-<hr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<p>This is a veryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryvery<wbr>longwordthatwillbreakatspecific<wbr>placeswhenthebrowserwindowisresized.</p>
+ <hr>
 
 
 </body>
