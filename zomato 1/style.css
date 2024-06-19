@@ -4,3 +4,24 @@
     background-position: 0%;
     background-size: cover;
 }
+
+ .sect-2{
+  height: 200px;
+  width: 100%;
+  /* overflow: hidden;
+  position: relative;
+  border-radius: 12px ; */
+}
+
+.sect-4-img {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sect-4-img .content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+}
