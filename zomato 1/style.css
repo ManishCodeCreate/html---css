@@ -5,13 +5,11 @@
     background-size: cover;
 }
 
- .sect-2{
+ /* .sect-2{
   height: 200px;
   width: 100%;
-  /* overflow: hidden;
-  position: relative;
-  border-radius: 12px ; */
-}
+ 
+} */
 
 .sect-4-img {
   position: relative;
@@ -28,4 +26,22 @@
 
 .sect-7-bg{
    background-color: #FFFBF7;
+}
+
+.sec-1-img{
+transition:0.5s;
+}
+.img-sec img{
+position: absolute;
+top: -35%;
+}
+.sec-1-img:hover{
+scale: 1.05;
+transition: 0.5s;
+}
+.img-sec{
+  height:200px;
+   overflow: hidden;
+  position: relative;
+  border-radius: 12px ;
 }
